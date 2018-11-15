@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUp">
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginBottom="139dp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="207dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/reenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="re-enter password"
+        android:inputType="textPassword"
+         />
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/password"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="134dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/password" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:layout_alignRight="@+id/password" />
+
+</RelativeLayout>
