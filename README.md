@@ -24,7 +24,7 @@ The following **optional** user stories are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/hackfinder00/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' 
+<img src='https://github.com/claudia00/loginapp/blob/master/login_app1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' 
 <img src='https://github.com/claudia00/loginapp/blob/master/login_app2.gif' title='Video Walkthrough' width '' alt ='Video Walkthrough' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
