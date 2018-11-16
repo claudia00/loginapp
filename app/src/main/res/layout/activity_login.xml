@@ -91,14 +91,15 @@
 
     <EditText
         android:id="@+id/title"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:ems="50"
+        android:layout_marginTop="0dp"
+        android:textSize="30sp"
         android:fadingEdge="none"
         android:inputType="textPersonName"
         android:text="CafeNya"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:gravity="center"/>
 </RelativeLayout>
